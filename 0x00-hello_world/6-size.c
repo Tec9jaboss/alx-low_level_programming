@@ -4,18 +4,16 @@
  * code by TEC9JA
  * Return: 0
  */
+#include <stdio.h>
 int main(void)
 {
-	char a;
-	int b;
-	long int c;
-	long long int d;
-	float f;
-
-	printf("Size of a char: %lu byte(S)\n", (unsigned long)sizeof(a));
-	printf("Size of a int: %lu byte(S)\n", (unsigned long)sizeof(b));
-	printf("Size of long int: %lu byte(S)\n", (unsigned long)sizeof(c));
-	printf("Size of long long int: %lu byte(S)\n", (unsigned long)sizeof(d));
-	printf("Size of float: %lu byte(S)\n", (unsigned long)sizeof(f));
+	printf("The size of char is %ld bytes.\n", sizeof(char));
+	printf("The size of short is %ld bytes.\n", sizeof(short));
+	printf("The size of int is %ld bytes.\n", sizeof(int));
+	printf("The size of long is %ld bytes.\n", sizeof(long));
+	printf("The size of long long is %ld bytes.\n", sizeof(long long));
+	printf("The size of float is %ld bytes.\n", sizeof(float));
+	printf("The size of double is %ld bytes.\n", sizeof(double));
+	printf("The size of long double is %ld bytes.\n", sizeof(long double));
 	return (0);
-}
+
